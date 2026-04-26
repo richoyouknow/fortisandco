@@ -16,30 +16,34 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.fortisandco.my.id/'),
   title: {
-    default: "Fortis & Co. | Legal Services for Student Entrepreneurs",
-    template: "%s | Fortis & Co."
+    default: "Fortis & Co. | Legal Services & Business Consulting for Student Entrepreneurs",
+    template: "%s | Fortis & Co. - Trusted Legal Partner"
   },
-  description: "Fortis & Co adalah platform layanan hukum dan konsultasi bisnis yang dirancang khusus untuk mahasiswa, wirausahawan muda, dan bisnis tahap awal.",
+  description: "Fortis & Co. provides accessible legal services and business consulting for students, young entrepreneurs, and startups in Indonesia. Protect your business with professional legal support.",
   keywords: [
-    "Legal Services", 
-    "Student Entrepreneurs",
-    "Konsultan Hukum Mahasiswa",
-    "Business Consulting Indonesia", 
-    "Startup Law", 
-    "Indonesia Legal",
-    "Konsultan Bisnis",
-    "Hukum Startup",
-    "Fortis and Co",
-    "Jasa Hukum Mahasiswa"
+    "Fortis & Co",
+    "Legal Services Indonesia",
+    "Student Entrepreneurs Legal Support",
+    "Business Consulting for Startups",
+    "Legal Advice for Young Entrepreneurs",
+    "Startup Law Indonesia",
+    "Business Licensing Assistance",
+    "Intellectual Property Guidance",
+    "Legal Documentation Templates",
+    "Fortis And Co."
   ],
   authors: [{ name: "Fortis & Co." }],
   creator: "Fortis & Co.",
+  publisher: "Fortis & Co.",
   robots: {
     index: true,
     follow: true,
     googleBot: {
       index: true,
       follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
     }
   },
   alternates: {
@@ -47,23 +51,23 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    locale: "id_ID",
+    locale: "en_US",
     url: "https://www.fortisandco.my.id/",
-    title: "Fortis & Co. | Legal Services for Student Entrepreneurs",
-    description: "Fortis & Co adalah platform layanan hukum dan konsultasi bisnis yang dirancang khusus untuk mahasiswa, wirausahawan muda, dan bisnis tahap awal.",
+    title: "Fortis & Co. | Strategic Legal Partner for the Next Generation of Entrepreneurs",
+    description: "Empowering student-led ventures with professional legal foundations. Affordable and approachable legal consulting.",
     siteName: "Fortis & Co.",
     images: [{
-      url: "/hero/hero.png",
+      url: "https://www.fortisandco.my.id/hero/hero.png",
       width: 1200,
       height: 630,
-      alt: "Fortis & Co. Legal Professionals"
+      alt: "Fortis & Co. - Empowering Entrepreneurs"
     }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fortis & Co. | Legal Services for Student Entrepreneurs",
-    description: "Fortis & Co adalah platform layanan hukum dan konsultasi bisnis yang dirancang khusus untuk mahasiswa, wirausahawan muda, dan bisnis tahap awal.",
-    images: ["/hero/hero.png"]
+    title: "Fortis & Co. | Legal & Business Solutions for Startups",
+    description: "Build a stronger legal foundation with Fortis & Co. Tailored for students and young business owners.",
+    images: ["https://www.fortisandco.my.id/hero/hero.png"]
   },
   verification: {
     google: "Qz1OZtCiOKlgOS8HuiNN8xGLkLCpH2I8asOSX8tHfBY",
@@ -74,26 +78,23 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "Fortis & Co.",
-  "description": "Platform layanan hukum dan konsultasi bisnis untuk mahasiswa dan wirausahawan muda di Indonesia.",
+  "description": "Professional legal services and business consulting platform for student entrepreneurs and startups in Indonesia.",
   "url": "https://www.fortisandco.my.id/",
   "logo": "https://www.fortisandco.my.id/logo/logo.png",
   "image": "https://www.fortisandco.my.id/hero/hero.png",
   "telephone": "+62 813 9850 6109",
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "Jakarta",
     "addressLocality": "Jakarta",
     "addressCountry": "ID"
   },
-  "sameAs": [
-    "https://www.fortisandco.my.id/"
-  ],
   "serviceType": [
-    "Legal Consulting",
-    "Business Consulting",
-    "Startup Law"
+    "Legal Consultation",
+    "Business Licensing",
+    "Trademark Guidance"
   ],
-  "areaServed": "Indonesia",
-  "priceRange": "Free Consultation Available"
+  "areaServed": "Indonesia"
 };
 
 export default function RootLayout({

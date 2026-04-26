@@ -56,12 +56,12 @@ export default function Contact() {
                 <div>
                   <p className="text-sm text-cream/60 uppercase tracking-widest mb-1">Phone / WhatsApp</p>
                   <a 
-                    href="https://wa.me/6287780593612" 
+                    href="https://wa.me/6281398506109" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-lg font-medium hover:text-accent-gold transition-colors"
                   >
-                    +62 877 8059 3612
+                    +62 813 9850 6109
                   </a>
                 </div>
               </div>
@@ -101,7 +101,7 @@ export default function Contact() {
               const message = formData.get('message');
               
               const text = `Halo Fortis & Co,\n\nNama: ${name}\nEmail: ${email}\nStatus Bisnis: ${status}\n\nPesan:\n${message}`;
-              const whatsappUrl = `https://wa.me/6287780593612?text=${encodeURIComponent(text)}`;
+              const whatsappUrl = `https://wa.me/6281398506109?text=${encodeURIComponent(text)}`;
               
               window.open(whatsappUrl, '_blank');
             }}>

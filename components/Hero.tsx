@@ -130,7 +130,7 @@ export default function Hero() {
               </div>
               <div className="flex flex-col items-center gap-2">
                 <InfoIcon type="phone" />
-                <span className="font-medium">+62 877 8059 3612</span>
+                <span className="font-medium">+62 813 9850 6109</span>
               </div>
               <div className="flex flex-col items-center gap-2">
                 <InfoIcon type="address" />

@@ -78,7 +78,7 @@ const jsonLd = {
   "url": "https://www.fortisandco.my.id/",
   "logo": "https://www.fortisandco.my.id/logo/logo.png",
   "image": "https://www.fortisandco.my.id/hero/hero.png",
-  "telephone": "+62 877 8059 3612",
+  "telephone": "+62 813 9850 6109",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Jakarta",

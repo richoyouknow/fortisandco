@@ -65,6 +65,9 @@ export const metadata: Metadata = {
     description: "Fortis & Co adalah platform layanan hukum dan konsultasi bisnis yang dirancang khusus untuk mahasiswa, wirausahawan muda, dan bisnis tahap awal.",
     images: ["/hero/hero.png"]
   },
+  verification: {
+    google: "66OYyYPZv7SLIxvMJcr0IPz05T3D6uS8qFfMQ9nFGQM",
+  },
 };
 
 const jsonLd = {

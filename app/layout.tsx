@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     images: ["/hero/hero.png"]
   },
   verification: {
-    google: "66OYyYPZv7SLIxvMJcr0IPz05T3D6uS8qFfMQ9nFGQM",
+    google: "Qz1OZtCiOKlgOS8HuiNN8xGLkLCpH2I8asOSX8tHfBY",
   },
 };
 

@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://fortisandco.my.id/sitemap.xml',
+    sitemap: 'https://www.fortisandco.my.id/sitemap.xml',
   };
 }

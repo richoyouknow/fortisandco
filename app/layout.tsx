@@ -14,7 +14,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('http://fortisandco.my.id/'),
+  metadataBase: new URL('https://fortisandco.my.id/'),
   title: {
     default: "Fortis & Co. | Legal Services for Student Entrepreneurs",
     template: "%s | Fortis & Co."
@@ -43,12 +43,12 @@ export const metadata: Metadata = {
     }
   },
   alternates: {
-    canonical: "http://fortisandco.my.id/",
+    canonical: "https://fortisandco.my.id/",
   },
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "http://fortisandco.my.id/",
+    url: "https://fortisandco.my.id/",
     title: "Fortis & Co. | Legal Services for Student Entrepreneurs",
     description: "Fortis & Co adalah platform layanan hukum dan konsultasi bisnis yang dirancang khusus untuk mahasiswa, wirausahawan muda, dan bisnis tahap awal.",
     siteName: "Fortis & Co.",
@@ -75,9 +75,9 @@ const jsonLd = {
   "@type": "ProfessionalService",
   "name": "Fortis & Co.",
   "description": "Platform layanan hukum dan konsultasi bisnis untuk mahasiswa dan wirausahawan muda di Indonesia.",
-  "url": "http://fortisandco.my.id/",
-  "logo": "http://fortisandco.my.id/logo/logo.png",
-  "image": "http://fortisandco.my.id/hero/hero.png",
+  "url": "https://fortisandco.my.id/",
+  "logo": "https://fortisandco.my.id/logo/logo.png",
+  "image": "https://fortisandco.my.id/hero/hero.png",
   "telephone": "+62 877 8059 3612",
   "address": {
     "@type": "PostalAddress",
@@ -85,7 +85,7 @@ const jsonLd = {
     "addressCountry": "ID"
   },
   "sameAs": [
-    "http://fortisandco.my.id/"
+    "https://fortisandco.my.id/"
   ],
   "serviceType": [
     "Legal Consulting",

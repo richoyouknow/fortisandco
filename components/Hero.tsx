@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { Globe, Phone, MapPin } from "lucide-react";
 import Image from "next/image";
 
@@ -15,7 +15,7 @@ const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
 };
 
 export default function Hero() {
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -26,14 +26,14 @@ export default function Hero() {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { y: 20, opacity: 0 },
     visible: {
       y: 0,
       opacity: 1,
       transition: {
         duration: 0.6,
-        ease: [0.16, 1, 0.3, 1],
+        ease: [0.16, 1, 0.3, 1] as any,
       },
     },
   };
@@ -57,7 +57,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-white/90 z-0" />
 
         {/* Decorative elements */}
-        <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_center,rgba(174,137,58,0.05) 0%,transparent_70%)] z-[1]" />
+        <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_center,_rgba(174,137,58,0.05)_0%,_transparent_70%)] z-[1]" />
 
         {/* Main Content Container */}
         <div className="relative z-10 flex w-full max-w-5xl flex-col items-center text-center px-8 pt-32 pb-20">
@@ -113,7 +113,7 @@ export default function Hero() {
             <motion.div variants={itemVariants}>
               <a
                 href="#contact"
-                className="inline-flex items-center gap-2 px-10 py-4 bg-[#152542] text-white text-sm font-semibold tracking-widest uppercase transition-all duration-300 hover:bg-accent-gold hover:text-white shadow-lg shadow-black/5"
+                className="inline-flex items-center gap-2 px-10 py-4 bg-[#152542] text-white text-sm font-semibold tracking-widest uppercase transition-all duration-300 hover:bg-accent-gold hover:text-white shadow-lg"
               >
                 Start Free Consultation
               </a>
@@ -142,7 +142,7 @@ export default function Hero() {
       </motion.section>
 
       {/* Supporting Statement Section */}
-      <div className="w-full bg-[#0d1627] text-white py-24 relative overflow-hidden border-t border-white/5">
+      <div className="w-full bg-primary-dark text-white py-24 relative overflow-hidden border-t border-white/5">
         {/* Subtle decorative glow */}
         <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-accent-gold/10 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/3 pointer-events-none" />
         
